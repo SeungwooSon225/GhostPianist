@@ -7,8 +7,11 @@ Piano Genie 논문(https://magenta.tensorflow.org/pianogenie)의 오토인코더
 
 ## 스크립트 설명
 ghost_pianist.py: 오토인코더 모델 스크립트
+
 dataset_maker: MAESTRO V3.0.0 데이터셋을 활용하여 데이터셋을 만드는 스크립트
+
 piano.py: 학습된 모델과 MIDI 피아노를 활용하여 실제 연주를 하는 스크립트
+
 hand_tracking: VR 연주를 위해 실제 손 움직임을 추적하고 정보를 Unity로 전달하기 위한 스크립트
 
 
